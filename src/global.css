@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --white: #ffffff;
+  --color-number: #1e233b;
+  --color-text: #828799;
+  --color-check: #59ce9f;
+  --color-background: #eeeeee;
+}
