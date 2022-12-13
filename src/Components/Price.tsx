@@ -15,9 +15,21 @@ export function Price() {
         </div>
 
         <div className="container">
-          <div className="item1"></div>
-          <div className="item2"></div>
-          <div className="item3"></div>
+          <div className="item1">
+            <header className="planoGratisHeader">Grátis</header>
+            <h1>R$ 0</h1>
+            <span>,00 /mês</span>
+          </div>
+          <div className="item2">
+            <header className="planoBasicoHeader">Básico</header>
+            <h1>R$ 29</h1>
+            <span>,00 /mês</span>
+          </div>
+          <div className="item3">
+            <header className="planoProfissionalHeader">Profissional</header>
+            <h1>R$ 59</h1>
+            <span>,00 /mês</span>
+          </div>
         </div>
       </div>
     </>
