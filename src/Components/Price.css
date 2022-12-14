@@ -3,6 +3,10 @@
   height: 100vh;
 }
 
+body {
+  background-color: var(--color-background);
+}
+
 .cabecalho1 {
   background-color: var(--blue);
   color: var(--white);
@@ -85,4 +89,31 @@
   text-align: initial;
   padding: 1.5rem 1.5rem 0rem;
   font-size: 18px;
+}
+
+.preco1 {
+  text-align: initial;
+  padding: 0rem 1.5rem 0rem;
+}
+
+.preco2 {
+  text-align: initial;
+  padding: 0rem 1.5rem 0rem;
+}
+
+.preco3 {
+  text-align: initial;
+  padding: 0rem 1.5rem 0rem;
+}
+
+.conteudo1 {
+  color: var(--color-text);
+}
+
+.conteudo2 {
+  color: var(--color-text);
+}
+
+.conteudo3 {
+  color: var(--color-text);
 }
