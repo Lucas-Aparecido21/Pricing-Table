@@ -7,6 +7,18 @@ body {
   background-color: var(--color-background);
 }
 
+.popular {
+  text-align: center;
+  width: 6rem;
+  font-size: 14px;
+  border-radius: 8px;
+  background: var(--blue);
+  color: var(--white);
+  height: 2.5rem;
+
+  margin-top: -0.5rem;
+}
+
 .cabecalho1 {
   background-color: var(--blue);
   color: var(--white);
@@ -67,7 +79,6 @@ body {
 }
 
 .planoBasicoHeader {
-  color: var(--blue);
   background-color: var(--yellow);
   height: 4.75rem;
   border-top-right-radius: 8px;
@@ -75,6 +86,8 @@ body {
   text-align: initial;
   padding: 1.5rem 1.5rem 0rem;
   font-size: 18px;
+  justify-content: space-between;
+  display: flex;
 }
 
 .planoGratisHeader {
@@ -162,10 +175,11 @@ body {
   font-size: 16px;
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: initial;
   gap: 0.5rem;
   margin-top: 2rem;
   align-items: center;
+  padding: 0 1.5rem;
 }
 
 ul {
@@ -177,10 +191,11 @@ ul {
   font-size: 16px;
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: initial;
   gap: 0.5rem;
   margin-top: 2rem;
   align-items: center;
+  padding: 0 1.5rem;
 }
 
 .conteudo3 {
@@ -188,10 +203,11 @@ ul {
   font-size: 16px;
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: initial;
   gap: 0.5rem;
   margin-top: 2rem;
   align-items: center;
+  padding: 0 1.5rem;
 }
 
 .footer1 {

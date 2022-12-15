@@ -46,7 +46,12 @@ export function Price() {
           </div>
 
           <div className="item2">
-            <header className="planoBasicoHeader">Básico</header>
+            <header className="planoBasicoHeader">
+              Básico
+              <button className="popular" disabled>
+                Popular
+              </button>
+            </header>
             <div className="valor2">
               <h1>R$ 29</h1>
               <h1 className="decimais2">,00</h1>
